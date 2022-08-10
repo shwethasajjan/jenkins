@@ -1,0 +1,28 @@
+Started by user [8mha:////4CKTB9cDiu2w4+SCdu7wy5CDJ6HiT2xkvGgaAGrQghi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL94ozy1JKMRAC+4OxQwgAAAA==[0mshwetha k
+Running as SYSTEM
+Building remotely on [8mha:////4GlpjPLP6jabQMULUMsu5rLd432vI64xJMBjlxnergZXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/SzdtMyc1GIAzhpoHsYAAAA=[0mj-files (test2) in workspace /home/ec2-user/workspace/javafiles
+The recommended git tool is: NONE
+using credential jenkin
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/javafiles/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shwethasajjan/jfile.git # timeout=10
+Fetching upstream changes from https://github.com/shwethasajjan/jfile.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+using GIT_SSH to set credentials test1
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /home/ec2-user/workspace/javafiles@tmp/jenkins-gitclient-ssh9203648124136813.key
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/shwethasajjan/jfile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 09c213839d730a551b02f090026a2b6746ef8579 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 09c213839d730a551b02f090026a2b6746ef8579 # timeout=10
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 09c213839d730a551b02f090026a2b6746ef8579 # timeout=10
+[javafiles] $ /bin/sh -xe /tmp/jenkins2962144119269943087.sh
++ echo java
+java
+Finished: SUCCESS

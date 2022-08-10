@@ -1,0 +1,7 @@
+Started by user [8mha:////4CKTB9cDiu2w4+SCdu7wy5CDJ6HiT2xkvGgaAGrQghi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL94ozy1JKMRAC+4OxQwgAAAA==[0mshwetha k
+Running as SYSTEM
+Building remotely on [8mha:////4H5dro8W6p0zPD1ZS0WV88PtnGB4G5FiHA6yPMm/zE30AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/WTdtMyc1GIAHV/wi8YAAAA=[0mc-files (test) in workspace /home/ec2-user/workspace/aaa
+[aaa] $ /bin/sh -xe /tmp/jenkins3586840832266811066.sh
++ echo test
+test
+Finished: SUCCESS

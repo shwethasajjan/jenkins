@@ -1,0 +1,7 @@
+Started by user [8mha:////4CKTB9cDiu2w4+SCdu7wy5CDJ6HiT2xkvGgaAGrQghi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL94ozy1JKMRAC+4OxQwgAAAA==[0mshwetha k
+Running as SYSTEM
+Building remotely on [8mha:////4GlpjPLP6jabQMULUMsu5rLd432vI64xJMBjlxnergZXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/SzdtMyc1GIAzhpoHsYAAAA=[0mj-files (test2) in workspace /home/ec2-user/workspace/javafiles
+[javafiles] $ /bin/sh -xe /tmp/jenkins6214799166503056404.sh
++ echo java
+java
+Finished: SUCCESS

@@ -1,0 +1,31 @@
+Started by user [8mha:////4CKTB9cDiu2w4+SCdu7wy5CDJ6HiT2xkvGgaAGrQghi4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL94ozy1JKMRAC+4OxQwgAAAA==[0mshwetha k
+Running as SYSTEM
+Building remotely on [8mha:////4H5dro8W6p0zPD1ZS0WV88PtnGB4G5FiHA6yPMm/zE30AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/WTdtMyc1GIAHV/wi8YAAAA=[0mc-files (test) in workspace /home/ec2-user/workspace/aaa
+The recommended git tool is: NONE
+using credential jenkin
+Cloning the remote Git repository
+Cloning repository https://github.com/shwethasajjan/cfile.git
+ > git init /home/ec2-user/workspace/aaa # timeout=10
+Fetching upstream changes from https://github.com/shwethasajjan/cfile.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+using GIT_SSH to set credentials test1
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /home/ec2-user/workspace/aaa@tmp/jenkins-gitclient-ssh8684979937259596349.key
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/shwethasajjan/cfile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shwethasajjan/cfile.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 70eef202245fc8d6ed9ce420108318e49f78574c (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 70eef202245fc8d6ed9ce420108318e49f78574c # timeout=10
+Commit message: "added c files"
+First time build. Skipping changelog.
+[aaa] $ /bin/sh -xe /tmp/jenkins6429607091405932622.sh
++ echo test
+test
+Finished: SUCCESS
